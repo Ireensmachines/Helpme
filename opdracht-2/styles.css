@@ -2,4 +2,35 @@
    OEFENEN MET FLEXBOX
 ========================================================= */
 
-/* Schrijf hier  jouw CSS! */
+/* 2.1 Zorg dat het paarse review-blok er zo uit komt te zien door flexbox te gebruiken:*/
+/*done*/
+.one {
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+    place-items: end;
+    justify-content: flex-end;
+}
+/*2.2 zorg dat de <div class="two"> er zo uit komt te zien door flexbox te gebruiken:*/
+
+.two{
+
+    display: flex;
+    justify-content: space-between;
+    }
+
+div.two  {
+    justify-content:flex-end;
+}
+/* Zorg dat de <div class="three"> er zo uit komt te zien door flexbox te gebruiken */
+
+.three {
+
+    background-color: deeppink; /*highlight voor indicatie*/
+    flex-direction: row;
+    display: flex;
+    justify-content:flex-end;
+    height: 40px;
+}
